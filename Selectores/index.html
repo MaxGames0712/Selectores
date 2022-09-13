@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Crea una Nueva Contraseña</h1>
+        <p>Tu nueva contraseña debe ser diferente</p>
+        <div class="new-password">
+            <input type="password" class="new-password-input" placeholder="CreatePassword">
+            <i class="fa-solid fa-eye" onclick="passToggle()"></i>
+            <p>Debe tener almenos 8 caracteres</p>
+        </div>
+        <div class="confirm-password">
+            <h3>Confirmar password</h3>
+            <input type="password" class="confirm-password-input" placeholder="Confirmar contraseña">
+        </div>
+        <p class="message">Las contraseñas deben coincidir</p>
+        <button class="reset-button" onclick="passChek()">check</button>
+    </div>
+</body>
+</html>
